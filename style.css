@@ -3,6 +3,19 @@ body{
     /* background-color: rgb(195, 104, 104); */    
 }
 
-.Title{
+.box-main{
+    background-color: rgb(226, 193, 164);
+
+    width: 75%;
+    height: auto;
+    
+    /* padding: 3%; */
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.title{
     text-align: center;
+    
 }
