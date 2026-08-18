@@ -1,6 +1,5 @@
 body{
     background-color: rgb(200, 166, 122)
-    /* background-color: rgb(195, 104, 104); */    
 }
 
 .box-main{
@@ -9,13 +8,23 @@ body{
     width: 75%;
     height: auto;
     
-    /* padding: 3%; */
     border: 2px solid black;
     margin: auto;
     margin-top: 5%;
 }
 
-.title{
+.title {
     text-align: center;
-    
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: auto;
+
+    font-size: 200%;
+    text-align: center;
 }
