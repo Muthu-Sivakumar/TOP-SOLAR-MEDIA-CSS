@@ -1,12 +1,46 @@
-/*
+body{
+    background-color: rgb(200, 166, 122)
+    /* background-color: rgb(195, 104, 104); */
+    
+}
 
-ideas
+.box-main{
+    background-color: rgb(226, 193, 164);
 
-align:
-    center title
+    width: 85%;
+    height: auto;
+    
+    /* padding: 3%; */
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 7.5%;
+}
 
-*/
-
-.Title{
+/* .box-main */
+.title{
+    font-size: 300%;
     text-align: center;
 }
+
+/* .box-main */
+.navbar {
+    background-color: rgb(228, 204, 183);
+
+    width: 100%;
+    height: auto;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+
+/* 
+padding
+border
+margin
+
+width
+height
+
+inline v block
+*/
