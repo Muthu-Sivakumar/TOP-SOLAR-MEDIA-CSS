@@ -1,24 +1,31 @@
 body{
     background-color: rgb(200, 166, 122)
-    /* background-color: rgb(195, 104, 104); */
-    
 }
 
 .box-main{
     background-color: rgb(226, 193, 164);
 
-    width: 85%;
+    width: 75%;
     height: auto;
     
-    /* padding: 3%; */
     border: 2px solid black;
     margin: auto;
-    margin-top: 7.5%;
+    margin-top: 5%;
 }
 
-/* .box-main */
-.title{
-    font-size: 300%;
+.title {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: auto;
+
+    font-size: 200%;
     text-align: center;
 }
 
