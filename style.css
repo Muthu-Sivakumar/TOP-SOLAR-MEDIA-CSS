@@ -18,6 +18,8 @@ body{
 }
 
 .navbar {
+    /* background-color: rgb(228, 204, 183); */
+
     width: 100%;
     height: auto;
 
@@ -27,18 +29,6 @@ body{
 
     font-size: 200%;
     text-align: center;
-}
-
-/* .box-main */
-.navbar {
-    background-color: rgb(228, 204, 183);
-
-    width: 100%;
-    height: auto;
-
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    margin: auto;
 }
 
 /* 
