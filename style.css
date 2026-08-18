@@ -1,11 +1,7 @@
-/*
-
-ideas
-
-align:
-    center title
-
-*/
+body{
+    background-color: rgb(200, 166, 122)
+    /* background-color: rgb(195, 104, 104); */    
+}
 
 .Title{
     text-align: center;
