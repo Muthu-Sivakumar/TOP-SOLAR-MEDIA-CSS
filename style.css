@@ -40,15 +40,14 @@ body{
 /* flex child */
 .navbar .child {
 
-    /* height: 100%; */
-    /* box-sizing: border-box; */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
 
-    flex: 1 0 20%;
-    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    padding: 0 25px; /* text wraps within 25px on both sides of item */
+
+    flex: 1 0 0%; /* flex-basis is 0% -> flex-growth takes care*/
 
 }
 .navbar .child.l {
