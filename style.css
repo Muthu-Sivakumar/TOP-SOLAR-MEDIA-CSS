@@ -13,12 +13,18 @@ body{
     margin-top: 5%;
 }
 
-.title {
+.title-main {
+    font-size: 300%;
+    text-align: center;
+}
+.title-sub {
     text-align: center;
 }
 
 /* flex parent */
 .navbar { 
+
+    background-color: rgb(166, 106, 106);
 
     width: 100%;
     height: 45px;
@@ -33,7 +39,6 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:spa /*main axis*/
     align-items: stretch; /*cross axis*/
 
 }
@@ -44,11 +49,12 @@ body{
     justify-content: center;
     align-items: center;
 
-    flex-wrap: wrap;
+    flex-wrap: wrap safe;
     padding: 0 25px; /* text wraps within 25px on both sides of item */
 
-    flex: 1 0 0%; /* flex-basis is 0% -> flex-growth takes care*/
+    flex: 1 1 0%; /* flex-basis is 0% -> flex-growth takes care*/
 
+    font-size: 1vw
 }
 .navbar .child.l {
 
@@ -65,4 +71,20 @@ body{
 
     border-left: 1px solid black;
     
+}
+
+.box-body{
+
+    padding: 0 5%;
+
+}
+
+.section {
+    /* background-color: coral; */
+    display: inline;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
 }
