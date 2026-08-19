@@ -56,21 +56,17 @@ body{
 
     font-size: 1vw
 }
-.navbar .child.l {
-
-    border-right: 1px solid black;
-    
-}
+.navbar .child.l {border-right: 1px solid black;}
 .navbar .child.m {
 
     border-left: 1px solid black;
     border-right: 1px solid black;
     
 }
-.navbar .child.r {
-
-    border-left: 1px solid black;
-    
+.navbar .child.r {border-left: 1px solid black;}
+a {
+    text-decoration: none;
+    color: inherit
 }
 
 .box-body{
