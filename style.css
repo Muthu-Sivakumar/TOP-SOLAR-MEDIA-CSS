@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly; /*main axis*/
+    justify-content:spa /*main axis*/
     align-items: stretch; /*cross axis*/
 
 }
