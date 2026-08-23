@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+/* grid parent container */
+.card {
+
+    display: grid;
+
+    width: 100%;
+    height: 225px;
+    margin-top: 5%;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 175px;
+    grid-template-areas: 
+        "title-1 title-2 title-3"
+        "photo-1 photo-2 photo-3";
+    
+}
+
+/* grid children */
+.card .title {
+
+    display: flex;
+
+    /* behavior to wrap text to center */
+    padding: 0 5%;
+    flex-wrap: wrap;
+    text-align: center;
+
+    /* align flexbox box to center of grid */
+    justify-content: center;
+    align-content: center;
+
+    /* style title */
+    text-decoration: underline;
+    
+}
+
+.card .card-1.title {grid-area: title-1;}
+.card .card-2.title {grid-area: title-2;}
+.card .card-3.title {grid-area: title-3;}
+
+.card img {
+    
+    /* size image */
+    width: 80%;
+    height: 80%;
+    
+    /* image ratio maintained at all sizes */
+    object-fit: cover;
+
+}
+.card .photo{
+
+    /* center photos to grid box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card .card-1.photo {grid-area: photo-1;}
+.card .card-2.photo {grid-area: photo-2;}
+.card .card-3.photo {grid-area: photo-3;}
