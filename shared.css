@@ -1,6 +1,14 @@
-/* the background color for the entire page */
+* {
+    box-sizing: border-box;
+}
+
+/* the background color for the entire page + hidden scrollbar across Browsers*/
 body{
-    background-color: rgb(200, 166, 122)
+    background-color: rgb(200, 166, 122);
+    scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Edge, Safari */
 }
 
 /* the peach-sand color box that contains all content below */
@@ -33,7 +41,6 @@ body{
     border-bottom: 2px solid black;
     margin: auto;
 
-    font-size: 50%;
     text-align: center;
 
     display: flex;
@@ -43,13 +50,13 @@ body{
 
 }
 /* styling applied to each navbar section */
-.navbar .navbar-child {
+.navbar .child {
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    flex-wrap: wrap safe;
+    flex-wrap: wrap;
     padding: 0 2%;
 
     flex: 1 1 0%; /* flex-basis is 0% -> flex-growth takes care*/
@@ -57,24 +64,16 @@ body{
     font-size: 1vw
 }
 /* the left-most navbar section */
-.navbar .navbar-child.l {
-    
-    border-right: 1px solid black;
-    
-}
+.navbar .child.l {border-right: 1px solid black;}
 /* the non-left/right navbar sections */
-.navbar .navbar-child.m {
+.navbar .child.m {
     
     border-left: 1px solid black;
     border-right: 1px solid black;
     
 }
 /* the right-most navbar section */
-.navbar .navbar-child.r {
-
-    border-left: 1px solid black;
-    
-}
+.navbar .child.r {border-left: 1px solid black;}
 /* styling the link on each navbar page */
 .navbar a {
     text-decoration: none;
@@ -82,16 +81,10 @@ body{
 }
 
 /* what contains the webpage's main text */
-.box-body{
-
-    padding: 0 5%;
-
-}
+.box-body{padding: 0 5%;}
 
 /* the current page's title at the top of the main text section */
-.title-sub {
-    text-align: center;
-}
+.title-sub {text-align: center;}
 
 /* the underlined text in the main text portion of the page */
 .section-title {
