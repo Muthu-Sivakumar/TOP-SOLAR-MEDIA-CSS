@@ -2,13 +2,21 @@
     box-sizing: border-box;
 }
 
-/* the background color for the entire page + hidden scrollbar across Browsers*/
-body{
-    background-color: rgb(200, 166, 122);
-    scrollbar-width: none; /* Firefox */
+/* Sets overflow in y-dir behaviro to scroll mechanism, 
+makes scroll width 0 (hidden) */
+html, body {
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 body::-webkit-scrollbar {
     display: none; /* Chrome, Edge, Safari */
+}
+
+/* the background color for the entire page */
+body{
+
+    background-color: rgb(200, 166, 122);
+
 }
 
 /* the peach-sand color box that contains all content below */
