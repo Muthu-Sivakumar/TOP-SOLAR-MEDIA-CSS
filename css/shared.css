@@ -85,7 +85,7 @@ body{
 /* styling the link on each navbar page */
 .navbar a {
     text-decoration: none;
-    color: inherit
+    color:inherit
 }
 
 /* what contains the webpage's main text */
