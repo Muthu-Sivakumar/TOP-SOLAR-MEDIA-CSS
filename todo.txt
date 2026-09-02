@@ -1,5 +1,6 @@
 (done) 1. add card scaffolding for each page
 2. ensure all card scaffolds have appropriate images
+    fix .jpg and .svg image sizes and resolutions
 3. add alt text to each image
 
 Once card scaffolding has been established, setup each article
