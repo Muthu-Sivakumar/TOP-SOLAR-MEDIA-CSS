@@ -1,0 +1,6 @@
+1. add card for each page
+2. add alt text to each image
+
+Once card scaffolding has been established, setup each article
+3. create and apply article scaffolding to every article
+4. Write articles
