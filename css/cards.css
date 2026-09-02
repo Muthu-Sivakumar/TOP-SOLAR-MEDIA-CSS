@@ -1,5 +1,5 @@
 /* grid parent container */
-.card .three {
+.card.three {
 
     display: grid;
 
@@ -14,7 +14,7 @@
         "photo-1 photo-2 photo-3";
     
 }
-.card .three {
+.card.six {
 
     display: grid;
 
@@ -23,7 +23,7 @@
     margin-top: 5%;
 
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 175px 175px 175px;
+    grid-template-rows: 50px 175px 50px 175px;
     grid-template-areas: 
         "title-1 title-2 title-3"
         "photo-1 photo-2 photo-3"
@@ -54,13 +54,13 @@
 }
 
 /* for 3 and 6 cards */
-.card .three, .six .card-1.title {grid-area: title-1;}
-.card .three, .six .card-2.title {grid-area: title-2;}
-.card .three, .six .card-3.title {grid-area: title-3;}
+.card.three .card-1.title, .card.six .card-1.title {grid-area: title-1;}
+.card.three .card-2.title, .card.six .card-2.title {grid-area: title-2;}
+.card.three .card-3.title, .card.six .card-3.title {grid-area: title-3;}
 /* for 6 cards only */
-.card .six .card-4.title {grid-area: title-4;}
-.card .six .card-5.title {grid-area: title-5;}
-.card .six .card-6.title {grid-area: title-6;}
+.card.six .card-4.title {grid-area: title-4;}
+.card.six .card-5.title {grid-area: title-5;}
+.card.six .card-6.title {grid-area: title-6;}
 
 
 /* grid item is a flex container */
@@ -85,10 +85,10 @@
 
 }
 /* for 3 and 6 cards */
-.card .three, .six .card-1.photo {grid-area: photo-1;}
-.card .three, .six .card-2.photo {grid-area: photo-2;}
-.card .three, .six .card-3.photo {grid-area: photo-3;}
+.card.three .card-1.photo, .card.six .card-1.photo {grid-area: photo-1;}
+.card.three .card-2.photo, .card.six .card-2.photo {grid-area: photo-2;}
+.card.three .card-3.photo, .card.six .card-3.photo {grid-area: photo-3;}
 /* for 6 cards only */
-.card .six .card-4.photo {grid-area: photo-4;}
-.card .six .card-5.photo {grid-area: photo-5;}
-.card .six .card-6.photo {grid-area: photo-6;}
+.card.six .card-4.photo {grid-area: photo-4;}
+.card.six .card-5.photo {grid-area: photo-5;}
+.card.six .card-6.photo {grid-area: photo-6;}
