@@ -1,6 +1,7 @@
-1. add card scaffolding for each page
-2. add alt text to each image
+(done) 1. add card scaffolding for each page
+2. ensure all card scaffolds have appropriate images
+3. add alt text to each image
 
 Once card scaffolding has been established, setup each article
-3. create and apply article scaffolding to every article
-4. Write articles
+4. create and apply article scaffolding to every article
+5. Write articles
