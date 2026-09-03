@@ -1,0 +1,21 @@
+1. ensure navbar paths work across all pages
+    let n be the # of navbar tiles
+    let s be the # of subsidiary pages
+    total path checks are n^2 + s*n
+
+    if subsidiary pages link to one another, include
+    this to calculation
+2. ensure cards.css can accomodate for varying # of cards
+on each page
+    
+
+    (3 cards)
+    promising-innovations
+    solarpunk-obstacles
+    solarpunk-page
+    aesthetics-visions-memery
+    
+    (6 cards)
+    real-world-implementations
+
+    (xx cards)
