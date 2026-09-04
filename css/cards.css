@@ -78,10 +78,7 @@
     
     /* size image */
     width: 80%;
-    height: 80%;
-    
-    /* image ratio maintained at all sizes */
-    object-fit: cover;
+    height: 90%;
 
 }
 /* for 3 and 6 cards */
