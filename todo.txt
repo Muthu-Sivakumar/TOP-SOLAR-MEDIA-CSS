@@ -1,8 +1,11 @@
-(done) 1. add card scaffolding for each page
-2. ensure all card scaffolds have appropriate images
-    fix .jpg and .svg image sizes and resolutions
-3. add alt text to each image
+(done) add card scaffolding for each page
+(done) ensure all card scaffolds have appropriate images
+    (done) fix .jpg and .svg image sizes and resolutions
+
+add alt text to each image
 
 Once card scaffolding has been established, setup each article
-4. create and apply article scaffolding to every article
-5. Write articles
+    create and apply article scaffolding to every article
+
+
+get approval to use official images for each card. for now, use related images
