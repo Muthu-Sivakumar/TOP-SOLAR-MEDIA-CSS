@@ -2,7 +2,9 @@
 (done) ensure all card scaffolds have appropriate images
     (done) fix .jpg and .svg image sizes and resolutions
 
-add alt text to each image
+add alt="" for each image
+fix links to "Image Credits"
+how to write alt="" for WIkipedia Commons images
 
 Once card scaffolding has been established, setup each article
     create and apply article scaffolding to every article
